@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: #eee;
+max-width: 100vw;
+min-height: 120vh;
+height: auto;
+overflow-x: hidden;
+}
+#Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Navbar .conteneur{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: #152238;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
+    min-height: 50px;
+    padding: 1.3rem 0.88rem;
+}
+#Navbar .conteneur #Logo{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Navbar .conteneur #Logo img
+{
+    width: 100%;
+    height: auto;
+}
+#Navbar .conteneur ul.Onglets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+#Navbar .conteneur ul.Onglets li.onglet{
+    list-style: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 300ms ease-in;
+}
+#Navbar .conteneur ul.Onglets li.onglet a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 25px;
+}
+#Navbar .conteneur ul.Onglets li.onglet.boutonAjout{
+    background: #1168ff;
+    margin-left: 30px;
+}
+#Navbar .conteneur ul.Onglets li.onglet:hover{
+    background: #1168ff;
+}
+#MainSection{
+    width: 100%;
+    height: auto;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    width: 50%;
+    height: auto;
+    padding: 2rem 1rem;
+    border-radius: 0.6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 8rem !important;
+}
+.formulaire form
+{
+    width: 80% !important;
+}
+.formulaire form label
+{
+    color: #221c1c;
+    font-family: 'Poppins', sans-serif;
+}
+.title
+{
+    font-size: 17px;
+    color: #152238;
+    font-family: 'Cinzel', serif;
+}
+.formulaire .title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.formulaire .title:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    background-color: #b80000;
+}
+.formulaire .title:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: absolute;
+    margin-top: 35px;
+    background-color: #b80000;
+}
+.Errors{
+    width: 80% !important;
+    height: auto;
+}
+.Errors .alert{
+    width: 80% !important;
+    height: auto;
+}
+.Certificat{
+    width: 250px !important;
+    height: 250px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 25px;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.Certificat a{
+    text-decoration: none;
+}
+.Certificat .bande{
+    width: 100% !important;
+    padding: 0.66rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Certificat .bande .badge{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Certificat .bande .badge img{
+    width: 100%;
+    height: auto;
+}
+
+.Certificat .bande-bas {
+    width: 100% !important;
+    padding: 0.66rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Certificat .bande-bas a#view-link
+{
+    text-decoration: none;
+    color: #152238;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.Certificat .bande-bas a:hover i{
+    color: #1168ff;
+}
+.Certificat span{
+ font-family: 'Oleo Script Swash Caps', cursive;
+}
+.Certificat #download
+{
+    margin-right: 10px;
+    color: #1168ff;
+}
+#ConteneurCertifications
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#AttestationDeStage{
+    width: 90vw;
+    max-width: 90vw;
+    height: 100vh !important;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #152238;
+}
+#pagination,
+#welcomeparagraph{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+}
+#accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
