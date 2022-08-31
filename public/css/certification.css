@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
-
-@font-face {
-    font-family: Alameda;
-    src: url('../fonts/alameda_script/AlamedaScript_PERSONAL_USE_ONLY.otf');
-}
-@font-face {
-    font-family: Funkies;
-    src: url('../fonts/funkies/Funkies.ttf');
-}
-@font-face {
-    font-family: VintageParty;
-    src: url('../fonts/vintage_party/VintageParty-FreeVersion.ttf');
-}
-
 ::-webkit-scrollbar{
     display: none;
 }
@@ -28,7 +14,10 @@ max-height: 100vh;
 height: auto;
 overflow-x: hidden;
 }
-
+#essaie{
+    color: red;
+    font-size: 40px;
+}
 #AttestationDeStage{
     width: 90vw;
     max-width: 90vw;
@@ -140,8 +129,8 @@ overflow-x: hidden;
 }
 #NomStagiaire
 {
-    font-family: Alameda;
-    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
     text-shadow: 1px 1px 1px #d4af37;
     margin: 20px 0px;
     color: #123C61;

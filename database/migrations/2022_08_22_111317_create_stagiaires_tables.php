@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string("nom");
             $table->string("prenoms");
             $table->string("ecole");
+            $table->dateTime("dateDebut")->nullable();
+            $table->dateTime("dateFin")->nullable();
             $table->foreignId("filiere_id")->constrained();
             $table->timestamps();
         });

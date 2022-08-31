@@ -14,15 +14,23 @@
             <input type="text" class="form-control" id="Nom" name="nom">
         </div>
         <div class="mb-3">
-            <label for="Prenoms" class="form-label">Prénoms du Stagiaires</label>
+            <label for="Prenoms" class="form-label">Prénoms du Stagiaire</label>
             <input type="text" class="form-control" id="Prenoms" name="prenoms">
         </div>
         <div class="mb-3">
-            <label for="Ecole" class="form-label">Ecole du Stagiaires</label>
+            <label for="Ecole" class="form-label">Ecole du Stagiaire</label>
             <input type="text" class="form-control" id="Ecole" name="ecole">
         </div>
         <div class="mb-3">
-            <label for="Filiere" class="form-label">Filière du Stagiaires</label>
+            <label for="dateDebut" class="form-label">Date de début de stage</label>
+            <input type="date" class="form-control" id="dateDebut" name="dateDebut">
+        </div>
+        <div class="mb-3">
+            <label for="dateFin" class="form-label">Date de fin de stage</label>
+            <input type="date" class="form-control" id="dateFin" name="dateFin">
+        </div>
+        <div class="mb-3">
+            <label for="Filiere" class="form-label">Filière du Stagiaire</label>
             <select type="text" class="form-control" id="Filiere" name="filiere_id">
                 <option value="Filière">Filiere</option>
                 @foreach($filieres as $filiere)

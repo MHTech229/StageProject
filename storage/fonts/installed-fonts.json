@@ -1,0 +1,29 @@
+{
+    "poppins": {
+        "normal": "poppins_normal_4dcc07300e2cf32ca9d478b1f5d45ba2"
+    },
+    "cinzel": {
+        "normal": "cinzel_normal_1410cd27477c1f62b4da63fdfe575b34"
+    },
+    "poppinsmedium": {
+        "normal": "poppinsmedium_normal_a8df670f41b528036aaedc2e0df58a97"
+    },
+    "poppinsbold": {
+        "normal": "poppinsbold_normal_442889363a2f64e644fc41052e6d499a"
+    },
+    "righteous-regular": {
+        "normal": "righteous_regular_normal_d2c5c08260a8526e7ee4e1be1b0e467a"
+    },
+    "oleoscriptswashcaps-bold": {
+        "normal": "oleoscriptswashcaps_bold_normal_69404002de86b8bc89c80440a053a647"
+    },
+    "oleoscriptswashcaps-regular": {
+        "normal": "oleoscriptswashcaps_regular_normal_46152f6b54e1da6aec158cf60bd72dca"
+    },
+    "cormorant-variablefont_wght": {
+        "normal": "cormorant_variablefont_wght_normal_527e091cb9d2f2d3e4becd052c5b6e95"
+    },
+    "playfairdisplaysc-regular": {
+        "normal": "playfairdisplaysc_regular_normal_db899bd99c4a3ba4003087033be68585"
+    }
+}

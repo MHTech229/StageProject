@@ -24,6 +24,14 @@
             <input type="text" class="form-control" id="Ecole" name="ecole" value="{{$stagiaire->ecole}}">
         </div>
         <div class="mb-3">
+            <label for="dateDebut" class="form-label">Date de début de stage</label>
+            <input type="date" class="form-control" id="dateDebut" name="dateDebut" value="{{(new DateTime($stagiaire -> dateDebut))->format('Y-m-d')}}">
+        </div>
+        <div class="mb-3">
+            <label for="dateFin" class="form-label">Date de fin de stage</label>
+            <input type="date" class="form-control" id="dateFin" name="dateFin" value="{{(new DateTime($stagiaire -> dateFin))->format('Y-m-d')}}">
+        </div>
+        <div class="mb-3">
             <label for="Filiere" class="form-label">Filière du Stagiaires</label>
             <select type="text" class="form-control" id="Filiere" name="filiere_id">
                     @foreach($filieres as $filiere)

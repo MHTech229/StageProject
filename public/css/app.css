@@ -89,7 +89,7 @@ overflow-x: hidden;
     padding: 2rem 1rem;
     border-radius: 0.6rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin-top: 8rem !important;
+    margin-top: 15rem !important;
 }
 .formulaire form
 {
@@ -217,7 +217,7 @@ overflow-x: hidden;
     color: #1168ff;
 }
 .Certificat span{
- font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .Certificat #download
 {

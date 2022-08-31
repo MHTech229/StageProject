@@ -31,6 +31,7 @@
         </ul>
     </div>
 </nav>
+
 <section id="MainSection">
      @yield("MainSection")
 </section>

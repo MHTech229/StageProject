@@ -12,8 +12,11 @@ class Stagiaire extends Model
         "nom",
         "prenoms",
         "ecole",
-        "filiere_id"
+        "filiere_id",
+        "dateDebut",
+        "dateFin"
     ];
+    protected $date = ['dateDebut', 'dateFin'];
     public function classe() {
             return $this->belongsTo(Filiere::class);
     }
